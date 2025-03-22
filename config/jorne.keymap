@@ -5,9 +5,11 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/rgb.h>
 
 #define SPLIT_USB_DETECT
 #define DEF 0
@@ -78,7 +80,7 @@
             bindings = <
 &trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp UP_ARROW    &kp PG_UP  &kp SLCK         &kp CAPS         &trans
         &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp C_MUTE    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp INS          &mt RCTRL K_APP
-        &trans           &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp DOWN        &kp PG_DN  &kp PAUSE_BREAK  &trans
+        &rgb_ug RGB_TOG  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp DOWN        &kp PG_DN  &kp PAUSE_BREAK  &bl BL_TOG
                                                      &trans     &trans     &trans          &trans        &trans    &trans
             >;
         };
