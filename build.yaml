@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: jorne_left nice_view_gem
+    shield: jorne_left nice_oled
   - board: nice_nano_v2
-    shield: jorne_right nice_view_gem
+    shield: jorne_right nice_oled
