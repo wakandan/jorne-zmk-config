@@ -81,10 +81,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7        &kp KP_N8        &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp UP_ARROW              &kp END                    &kp SLCK                  &kp CAPS              &trans
-        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4        &kp KP_N5        &kp KP_N6  &kp KP_PLUS     &kp C_MUTE    &kp LEFT  &kp DOWN_ARROW            &kp RIGHT                  &kp INS                   &mt RCTRL K_APP
-        &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LS(NUMBER_4))
-                                                           &trans           &trans     &trans          &trans        &trans    &trans
+&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7        &kp KP_N8        &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW     &kp LS(LG(RIGHT_BRACKET))  &kp SLCK                  &kp CAPS              &trans
+        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4        &kp KP_N5        &kp KP_N6  &kp KP_PLUS     &kp HOME      &kp LEFT                  &kp DOWN_ARROW   &kp RIGHT                  &kp END                   &mt RCTRL K_APP
+        &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp K_MUTE                &kp C_VOLUME_UP  &kp LS(LG(RIGHT_BRACKET))  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LS(NUMBER_4))
+                                                           &trans           &trans     &trans          &trans        &trans                    &trans
             >;
         };
 
