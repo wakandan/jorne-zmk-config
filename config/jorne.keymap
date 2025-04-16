@@ -81,10 +81,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &kp KP_NUM       &kp F1          &kp F2           &kp F3             &kp F4      &kp F5             &kp C_BRIGHTNESS_INC  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW           &kp LS(LG(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &trans
-        &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP    &kp HOME              &kp LEFT                  &kp DOWN_ARROW         &kp RIGHT                  &kp END                   &mt RCTRL K_APP
-        &rgb_ug RGB_TOG  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &kp KP_N3   &kp KP_DOT         &kp C_BRIGHTNESS_DEC  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LS(NUMBER_4))
-                                                          &trans             &trans      &trans             &trans                &trans                    &trans
+&trans  &bt BT_SEL 3     &kp F1          &kp F2           &kp F3             &kp F4        &kp F5             &kp C_BRIGHTNESS_INC  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW           &kp LS(LG(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &trans
+        &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP    &kp HOME              &kp LEFT                  &kp DOWN_ARROW         &kp RIGHT                  &kp END                   &mt RCTRL K_APP
+        &rgb_ug RGB_TOG  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &bt BT_SEL 3  &bt BT_SEL 4       &kp C_BRIGHTNESS_DEC  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LS(NUMBER_4))
+                                                          &trans             &trans        &trans             &trans                &trans                    &trans
             >;
         };
 
