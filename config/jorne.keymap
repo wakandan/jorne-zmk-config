@@ -81,10 +81,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 3     &kp F1          &kp F2           &kp F3             &kp F4        &kp F5             &kp C_BRIGHTNESS_INC  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW           &kp LS(LG(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &trans
-            &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP    &kp HOME              &kp LEFT                  &kp DOWN_ARROW         &kp RIGHT                  &kp END                   &kp CAPSLOCK
-            &rgb_ug RGB_TOG  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &bt BT_SEL 3  &bt BT_SEL 4       &kp C_BRIGHTNESS_DEC  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LS(NUMBER_4))
-                                                              &trans             &trans        &trans             &trans                &trans                    &trans
+&bt BT_CLR  &bt BT_SEL 3     &kp F1                &kp F2                &kp F3        &kp F4             &kp F5             &kp PAGE_UP    &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW           &kp LS(LG(RIGHT_BRACKET))  &kp LG(LEFT_BRACKET)      &kp LG(DELETE)        &trans
+            &rgb_ug RGB_EFF  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4       &kp HOME       &kp LEFT                  &kp DOWN_ARROW         &kp RIGHT                  &kp END                   &kp CAPSLOCK
+            &rgb_ug RGB_TOG  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp PAGE_DOWN  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LS(NUMBER_4))
+                                                                         &trans        &trans             &trans             &trans         &trans                    &trans
             >;
         };
 
