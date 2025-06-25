@@ -13,7 +13,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip {
@@ -98,10 +97,10 @@
             //                          |     |     |     |   |     |     |     |
 
             bindings = <
-&sys_reset  &bootloader   &kp Q  &kp W  &kp F   &kp P  &kp B     &kp J   &kp L  &kp U   &kp Y  &studio_unlock  &bootloader   &sys_reset
-            &bt BT_CLR    &kp A  &kp R  &kp S   &kp T  &kp G     &kp K   &kp N  &kp E   &kp I  &kp O           &bt BT_CLR
-            &out OUT_TOG  &kp Z  &kp X  &kp C   &kp D  &kp V     &kp M   &kp H  &none   &none  &none           &out OUT_TOG
-                                        &trans  &none  &trans    &trans  &none  &trans
+&trans  &trans  &kp Q  &kp W  &kp F         &kp P  &kp B     &kp J   &kp L  &kp U   &kp Y  &trans  &trans  &trans
+        &trans  &kp A  &kp R  &kp S         &kp T  &kp G     &kp K   &kp N  &kp E   &kp I  &kp O   &trans
+        &trans  &kp Z  &kp X  &kp C         &kp D  &kp V     &kp M   &kp H  &none   &none  &none   &trans
+                              &kp LEFT_ALT  &mo 1  &trans    &trans  &none  &trans
             >;
         };
     };
