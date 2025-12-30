@@ -28,8 +28,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <LWR RSE>;
-            then-layer = <ADJ>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 
@@ -101,15 +101,6 @@
         &trans         &kp N1           &kp N2       &kp N3     &kp N4      &kp N5         &kp N6             &kp N7             &kp N8          &kp N9                &kp N0                 &kp MINUS
         &trans         &kp GRAVE        &kp GRAVE    &kp GRAVE  &kp TILDE   &kp PIPE       &kp RIGHT_BRACKET  &kp LEFT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH          &kp GRAVE
                                                      &trans     &trans      &trans         &trans             &kp LA(BACKSPACE)  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-                                &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
     };
