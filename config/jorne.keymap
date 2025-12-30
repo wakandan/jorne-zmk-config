@@ -46,10 +46,10 @@
             //                           | RSE | SPC | LWR |   | LWR | BSPC | RSE |
 
             bindings = <
-&kp ESCAPE  &kp TAB         &kp Q  &kp W  &kp E         &kp R    &kp T           &kp Y      &kp U          &kp I      &kp O    &kp P     &kp BACKSPACE    &kp ENTER
-            &kp CAPSLOCK    &kp A  &kp S  &kp D         &lt 4 F  &kp G           &kp H      &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
-            &kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V    &kp B           &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                          &kp LEFT_ALT  &mo 1    &kp LEFT_WIN    &kp SPACE  &kp BACKSPACE  &mo 2
+&kp ESCAPE  &kp TAB           &kp Q  &kp W  &kp E  &kp R         &kp T           &kp Y      &kp U          &kp I      &kp O    &kp P     &kp BACKSPACE    &kp ENTER
+            &kp LEFT_CONTROL  &kp A  &kp S  &kp D  &lt 4 F       &kp G           &kp H      &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
+            &kp LEFT_SHIFT    &kp Z  &kp X  &kp C  &kp V         &kp B           &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                            &mo 3  &kp LEFT_ALT  &kp LEFT_WIN    &kp SPACE  &kp BACKSPACE  &mo 3
             >;
         };
 
@@ -87,7 +87,7 @@
             >;
         };
 
-        colemark-dh {
+        numbers_symbols {
             display-name = "ADJ";
 
             // -----------------------------------------------------------------------------------------
