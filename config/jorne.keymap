@@ -73,10 +73,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&bt BT_CLR  &trans           &trans                &trans                &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp C_MUTE    &trans  &trans  &trans    &trans     &trans  &trans  &trans
-            &rgb_ug RGB_EFF  &trans                &trans                &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans  &kp LEFT  &kp RIGHT  &trans  &trans
-            &rgb_ug RGB_TOG  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans             &trans            &trans        &trans  &trans  &trans    &trans     &trans  &trans
-                                                                         &trans             &trans            &trans        &trans  &trans  &trans
+&bt BT_CLR  &trans           &trans                &trans                &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE          &trans  &trans  &trans    &trans     &trans  &trans  &trans
+            &rgb_ug RGB_EFF  &trans                &trans                &kp C_PREVIOUS     &kp C_NEXT       &kp C_PLAY_PAUSE    &trans  &trans  &kp LEFT  &kp RIGHT  &trans  &trans
+            &rgb_ug RGB_TOG  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans             &trans           &trans              &trans  &trans  &trans    &trans     &trans  &trans
+                                                                         &trans             &trans           &trans              &trans  &trans  &trans
             >;
         };
 
