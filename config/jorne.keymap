@@ -59,8 +59,8 @@
             //                         | ADJ |     |     |   |     |     | ADJ |
 
             bindings = <
-&trans  &trans  &kp C_VOLUME_UP           &kp C_VOLUME_DOWN  &kp K_PP  &trans  &trans    &kp HOME              &kp PAGE_UP               &kp PAGE_DOWN              &kp END                &kp MINUS  &kp PLUS        &kp LS(ENTER)
-        &trans  &trans                    &trans             &trans    &trans  &trans    &kp LEFT              &kp DOWN                  &kp UP                     &kp RIGHT              &kp EQUAL  &kp UNDERSCORE
+&trans  &trans  &kp C_VOLUME_UP           &kp C_VOLUME_DOWN  &kp K_PP  &trans  &trans    &kp HOME              &kp PAGE_UP               &kp PAGE_DOWN              &kp END                &kp EQUAL  &kp UNDERSCORE  &kp LS(ENTER)
+        &trans  &trans                    &trans             &trans    &trans  &trans    &kp LEFT              &kp DOWN                  &kp UP                     &kp RIGHT              &kp PLUS   &kp MINUS
         &trans  &kp LG(LS(LC(NUMBER_4)))  &trans             &trans    &trans  &trans    &kp LG(LEFT_BRACKET)  &kp LS(LG(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp PIPE   &kp BACKSLASH
                                                              &trans    &trans  &trans    &trans                &kp DELETE                &trans
             >;
